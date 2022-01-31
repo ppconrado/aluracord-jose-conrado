@@ -33,7 +33,7 @@ function Titulo(props) {
 // export default HomePage
 
 export default function PaginaInicial() {
-  // const username = 'omariosouto';
+  // const username = 'ppconrado';
   const [username, setUsername] = React.useState("ppconrado");
   const roteamento = useRouter();
 
@@ -76,7 +76,8 @@ export default function PaginaInicial() {
             onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               console.log("Alguém submeteu o form");
-              roteamento.push("/chat");
+              // roteamento.push('/chat?username=' + username);
+              roteamento.push(`/chat?username=${username}`);
               // window.location.href = '/chat';
             }}
             styleSheet={{

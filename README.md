@@ -133,3 +133,23 @@ Http Status Dogs
 API do GitHub
 Dev em T
 Pacote de stickers da Alura
+
+## Parte 5
+
+Web Sockets
+E adicionar os stickers que você pode pegar VÁRIOS aqui :)
+https://github.com/alura-challenges/aluracord-matrix/blob/main/config.json#L33
+
+Código com as alterações feitas na aula
+
+Stickers do AluraVerso!
+
+Componente ButtonSendSticker
+
+Dicas de programação do DevSoutinho
+
+Como criar um jogo do ZERO!
+
+DevSoutinho - Dicas de React e Web em geral
+
+Supabase
